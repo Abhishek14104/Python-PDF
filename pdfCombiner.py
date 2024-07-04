@@ -10,7 +10,7 @@ def pdfCombiner(pdfList):
         merger.append(pdf)
     merger.write('super.pdf')
     
-# PDF combiner ko use karne ke liye python ./main.py file1, file2, file3....
+# PDF combiner ko use karne ke liye python ./pdfCombiner.py file1, file2, file3....
 pdfCombiner(pdfInput)
 
 
